@@ -1,0 +1,239 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --green-color:#a2b291;
+    
+}
+body{
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*ændre baggrundsfarve af navbar her*/
+.sofie-custom-navbar{
+    background-color: #000000;
+    padding: 10px;
+}
+
+.nav-item{
+    margin: 20px;
+}
+
+/*ændre tekstfarve- og størrelse til links her*/
+.sofie-style{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.sofie-style:hover{
+    color: #392ed6;
+}
+/*ændre tekstfarve- og størrelse til logo her*/
+.sofie-style-logo{
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+/*ændre min profil dropdown btn her*/
+.sofie-btn-light{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: 2px solid #ffffff;
+    color: #000000;
+}
+
+.sofie-btn-light:hover{
+  background-color: rgb(135, 46, 46);
+  color: #000000;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+/*ændre kontakt btn her*/
+.sofie-btn-white a{
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    padding: 9px 25px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    width: 120px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+@media only screen and (max-width: 936px) {
+  /*ændre min profil dropdown btn her*/
+.sofie-btn-light{
+  margin-bottom: 15px;
+  
+}
+
+/*ændre kontakt btn her*/
+.sofie-btn-white a{
+  margin-bottom: 15px;
+}
+}
+
+
+
+/*tips og tricks link*/
+.forside-link-tipsogtricks-container{
+    background-color: #181b3d;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 10px 35px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 500px;
+    margin: 50px 40px 10px 40px;
+    border-radius: 30px;
+  }
+  
+  .forside-link-tipsogtricks-content{
+    max-width: 500px;
+    font-size: 1.5rem;
+    padding: 60px;
+  }
+  
+
+  .forside-link-tipsogtricks-content p{
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  .forside-link-omos-tekst{
+    font-size: 1.5rem;
+    max-width: 650px;
+    margin: 20px;
+  }
+  
+  .forside-link-tipsogtricks-content a{
+    padding: 15px 30px;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    transition: 0.4s;
+  }
+  
+  .forside-link-tipsogtricks-content a:hover{
+    background-color:rgb(34, 0, 255);
+    /* box-shadow: 0 10px 20px rgba(31, 46, 255, 0.2); */
+    color: #ffffff;
+  }
+  
+  .forside-link-tipsogtricks-img{
+    width: 600px;
+  }
+  
+  .forside-link-tipsogtricks-img img{
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+        /*footer*/
+footer{
+    background-color: #181b3d;
+    min-height: 800px;
+    margin-top: 100px;
+    border-radius: 200px 200px 0px 0px;
+    padding: 140px 70px 40px 70px;
+}
+
+.footer-links-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 60px; 
+  align-items: end;
+  margin-top: 200px;
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 300px;
+  gap: 30px;
+  color: white;
+  transition: 0.4s;
+}
+
+.footer-links a{
+  color: white;
+  transition: 0.4s;
+}
+
+.footer-links a:hover{
+  scale: 1.1;
+}
+
+.nyheds-brev-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nyheds-brev-tekst{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nyheds-brev-tekst p{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+label{
+    color: lightgray;
+}
+
+.nyhedsbrev-btn{
+    padding: 10px 40px;
+    margin: 5px;
+    font-size: 1.2rem;
+    background-color: white;
+    color: #B7D2B8;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.nyhedsbrev-btn:hover{
+  color: #FF8DAA;
+  box-shadow: 0 10px 20px rgba(93, 93, 93, 0.2);
+}
+
+.copyright{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 60px 0px 10px 0px;
+  color: white;
+}
